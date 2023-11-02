@@ -1,0 +1,130 @@
+.carousel-indicators{
+    position: unset;
+}
+.carousel-indicators [data-bs-target]{
+width: 30px;
+height: 30px;
+background-color: green;
+color: rgb(242, 245, 242);
+text-indent: unset;
+}
+span{
+    color: white;
+    font-size: 60px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+h1{
+    background-color: green;
+    color: rgb(134, 199, 134);
+    margin: 10px 0;
+}
+h2{
+
+    width: fit-content;
+    margin: auto;
+    background-color: red;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+p{
+    font-size: 1.5rem;
+    color: green;
+    margin: 50px auto;
+    width: 80%;
+}
+.output {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid green;
+    color: red;
+    width: 50%;
+    height: 100px;
+    padding: 20px;
+    margin: 20px auto 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    overflow: auto;
+}
+.calContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 230px;
+    margin: 50px auto;
+    background-color: green;
+    padding-top: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.calContainer #inputLabel {
+    width: 90%;
+    margin: 0 auto 50px;
+    height: 60px;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.calContainer .btn-ac button, .calContainer .equal-btn button {
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.calContainer .equal-btn button{
+    background-color: white;
+    color: black;
+    width: 100px;
+}
+.calContainer .remove-btn {
+    color: green;
+    width: 150px;
+}
+.calContainer .calc-btn {
+    color: #7CFC00;
+}
+.calContainer button {
+    margin-bottom: 12.5px;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color:black ;
+    color: white;
+    border: none;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+    transition: all 0.3 ease-in-out;
+    -webkit-transition: all 0.3 ease-in-out;
+    -moz-transition: all 0.3 ease-in-out;
+    -ms-transition: all 0.3 ease-in-out;
+    -o-transition: all 0.3 ease-in-out;
+}
+.calContainer button:hover{
+    background-color: white;
+    color: black;
+    opacity: 50%;
+}
